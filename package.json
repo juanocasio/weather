@@ -1,0 +1,29 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "\"# weather\" \r \"# weather\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanocasio/weather.git"
+  },
+  "keywords": [
+    "weather",
+    "reprt"
+  ],
+  "author": "Juan Ocasio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanocasio/weather/issues"
+  },
+  "homepage": "https://github.com/juanocasio/weather#readme",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-resource": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "bootstrap": "^3.3.6"
+  }
+}
