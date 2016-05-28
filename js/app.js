@@ -1,13 +1,13 @@
-var weatherForecast = angular.module("weatherForecast", ['ngRoute', 'ngResource', 'homeController', 'forecastController'])
+var weatherForecast = angular.module("weatherForecast", ['ngRoute', 'ngResource'])
 .config(function($routeProvider){
     $routeProvider
     
     .when('/', {
-        templateURL: "./templates/homeTemplate.html",
+        templateUrl: "./templates/homeTemplate.html",
         controller: 'homeController'
     })
     .when('/forecast', {
-        templateURL: "./templates/forecastTemplate.html",
+        templateUrl: "./templates/forecastTemplate.html",
         controller: 'forecastController'
     })   
 });
