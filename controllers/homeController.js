@@ -1,5 +1,6 @@
 'use strict';
-angular.module('weatherForecast')
- .controller('homeController', ['$scope', function ($scope){
-    
-}]);
+weatherForecast
+    .controller('homeController', ['$scope','forecastService', function ($scope, forecastService) {
+        $scope.name = forecastService.name;
+
+    }]);
