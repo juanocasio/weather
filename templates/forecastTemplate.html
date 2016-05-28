@@ -1,1 +1,8 @@
 <h3>Weather for {{city}} </h3>
+
+<div ng-controller="forecastController">
+    <ul ng-repeat="weatherResult in weatherResults.list">
+        <li> {{ convertToDate(weatherResult.dt) | date }}</li>
+        <li> {{ convertToFahrenheit(weatherResult.temp.day) }}&deg;</li>
+    </ul>
+</div>
